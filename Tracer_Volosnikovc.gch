@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc.h>
+#include <math.h>
+
+int int_max(int* int_array, int length);
+void double_max(double* double_array, int length, double* result);
+int int_min(int* int_array, int length);
+void double_min(double* double_array, int length, double* result, int* k_min);
+int int_search_minimal_period(int* array, int length);
+int double_search_minimal_period(double* array, int length);
+void calculation_interval(int x, int length, int* int_array, int parameter, int* start, int* finish);
+void array_averaging(int parameter, int length, int* in_array, int* out_array);
+void create_array_square_deviation(int* array, int input_length, double* result_array);
+void rough_search_lows(double* array, int length, int* result_array, int* out_length);
+void accurate_search_extremes(int* x_array, int *length, int* y_array, int* result_array, int* out_length);
+void trace(int* in_array, int height, int width, int* out_array, int* amount_lines);
+
